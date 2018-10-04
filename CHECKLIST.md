@@ -11,7 +11,6 @@
 	- [ ] **Nastav Open Graph meta tagy**
 	- [ ] **Zkontroluj Open Graph meta tagy Facebook debuggerem** (https://developers.facebook.com/tools/debug/)
 - [ ] **Označ klíčové elementy dle standardu WAI ARIA** (viz KB)
-~~- [ ] Vlož souhlas s ukládáním cookies~~
 - [ ] **Ověř, zda-li je nastavena chybová stránka 404**
 - [ ] Zvaž načítání alternativních fontů přes Web Font Loader (https://github.com/typekit/webfontloader)
 - [ ] **Zkontroluj, jestli zkompilovaný CSS neobsahuje nechtěné `@import`**
@@ -52,9 +51,7 @@
 	- [ ] **Propoj Google Analytics a Search Console profilů (na straně GA)**
 
 ## Vyhledávače
-~~- [ ] **Google** (https://www.google.com/webmasters/tools/submit-url) ~~
 - [ ] **Seznam** (http://search.seznam.cz/pridej-stranku)
-~~- [ ] **Bing** (http://www.bing.com/toolbox/submit-site-url)~~
 
 ## Ostatní
 - [ ] **Ověř, že není soubor .env přístupný z prohlížeče, pokud jsou pro připojení k db použity dotnev proměnné**
