@@ -1,27 +1,27 @@
 # Deployment Checklist
 
 ## .htaccess
-- [ ] **Ošetři web/aplikaci pro doménu bez www** (viz KB)
-- [ ] **Nastav GZip kompresi a kešování** (viz KB)
-- [ ] **Aktivuj SSL certifikát a přesměrovat na HTTPS protokol** (viz KB)
-	- [ ] Ověř, že všechny URL adresy a assety používají HTTPS protokol
+- [ ] **Force www redirection of web/app domain** (see KB)
+- [ ] **Set GZip compression and caching** (see KB)
+- [ ] **Activate SSL certificate and force redirect to HTTPS protocol** (see KB)
+	- [ ] Make sure every URL a assets are using the HTTPS protocol
 
-## Kód a assets
-- [ ] **Doplň meta tagy (meta description, atd.)**
-	- [ ] **Nastav Open Graph meta tagy**
-	- [ ] **Zkontroluj Open Graph meta tagy Facebook debuggerem** (https://developers.facebook.com/tools/debug/)
-- [ ] **Označ klíčové elementy dle standardu WAI ARIA** (viz KB)
-- [ ] **Ověř, zda-li je nastavena chybová stránka 404**
-- [ ] Zvaž načítání alternativních fontů přes Web Font Loader (https://github.com/typekit/webfontloader)
-- [ ] **Zkontroluj, jestli zkompilovaný CSS neobsahuje nechtěné `@import`**
-- [ ] **Nastav minifikace HTML kódu**
-- [ ] **Zkontroluj validitu HTML kódu W3C validátorem**
-- [ ] Zvaž prioritizaci načítání JavaScript skriptů (viz KB)
-- [ ] **Optimalizuj obrázky v ImageOptim, ImageAlpha, TinyPNG a SVGOMG**
-- [ ] **Zkontroluj zobrazení v IE 11+ a dalších prohlížečích** (https://www.browserling.com/internet-explorer-testing)
+## Code and assets
+- [ ] **Set meta tags (meta description, etc.)**
+	- [ ] **Set Open Graph meta tags**
+	- [ ] **Check Open Graph meta tags with Facebook debugger** (https://developers.facebook.com/tools/debug/)
+- [ ] **Mark key elements by WAI ARIA standards** (see KB)
+- [ ] **Check 404 error page**
+- [ ] Consider loading of alternative fonts via Web Font Loader (https://github.com/typekit/webfontloader)
+- [ ] **Check compiled CSS for unwated `@import`**
+- [ ] **Set HTML code minification**
+- [ ] **Check validity of HTML with W3C validator**
+- [ ] Consider setting JavaScript loading prioritization (see Query KB)
+- [ ] **Optimize images in ImageOptim, ImageAlpha, TinyPNG and SVGOMG**
+- [ ] **Check the web/app in IE 11+ and other browsers**
 
-## WordPress před deployem
-- [ ] **Změň heslo administrátora**
+## WordPress before deploy
+- [ ] **Change admin password**
 - [ ] **Odstraň a/nebo zamez přístupu k souborům readme.html a licence.txt**
 - [ ] Zváž nastavení automatické aktualizace pluginů
 - [ ] **Pokud jsou použity formuláře, ověř, že jsou správně nastavené**
