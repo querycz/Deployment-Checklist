@@ -22,14 +22,14 @@
 
 ## WordPress before deploy
 - [ ] **Change admin password**
-- [ ] **Odstraň a/nebo zamez přístupu k souborům readme.html a licence.txt**
-- [ ] Zváž nastavení automatické aktualizace pluginů
-- [ ] **Pokud jsou použity formuláře, ověř, že jsou správně nastavené**
+- [ ] **Remove or disallow access to readme.html and licence.txt files**
+- [ ] Consider setting auto update of plugins
+- [ ] **Check settings of forms if used**
 
-## Analytika a SEO před deployem
-- [ ] **Ověř, že není zakázáno indexování a procházení robotů skrz meta noindex, nofollow, nosnippet a noarchive jako pozůstatek z dev prostředí**
+## Anayltics and SEO before deploy
+- [ ] **Check , že není zakázáno indexování a procházení robotů skrz meta noindex, nofollow, nosnippet a noarchive jako pozůstatek z dev prostředí**
 - [ ] **Nasaď měřící skript Google Analytics**
-	- [ ] **Akrivuj report demografie**
+	- [ ] **Activate demography report**
 	- [ ] **Nastav délku uchování dat (Služba –> Údaje o měření –> Uchovávání dat)**
 	- [ ] Nastav setSiteSpeedSampleRate pro zvýšení vzorků pro testování rychlosti (https://goo.gl/FRHiAp)
 	- [ ] Nastav sledování událostí – event tracking (https://goo.gl/1xAgzO)
@@ -39,22 +39,22 @@
 	- [ ] Aktivuj Analýzy na stránce (https://support.google.com/analytics/answer/2558867/?hl=cs)
 	- [ ] Doplň kód o remarketing skript (https://goo.gl/Qy7e81)
 
-## WordPress po deployi
+## WordPress after deploy
 - [ ] **Vygeneruj unikátní extra keys a salts ve wp-config.php**
 - [ ] **Nastav správných CHMOD práv adresářům (např. uploads)**
 - [ ] **Nasaď WP Super Cache**
 - [ ] Přidej web/aplikaci do konzole ManageWP (pouze u supportovaných projektů)
 
-## Analytika a SEO po deployi
+## Analytics and SEO after deploy
 - [ ] **Registruj web/aplikaci do Google Search Console**
 	- [ ] **Podstrč sitemap.xml**
 	- [ ] **Propoj Google Analytics a Search Console profilů (na straně GA)**
 
-## Vyhledávače
+## Search Engines
 - [ ] **Seznam** (http://search.seznam.cz/pridej-stranku)
 
-## Ostatní
-- [ ] **Ověř, že není soubor .env přístupný z prohlížeče, pokud jsou pro připojení k db použity dotnev proměnné**
+## Others
+- [ ] **Check accessibility of .env file from the browser in case of using dotenv variables**
 - [ ] Zvaž přidání informační stránky "Informace o zpracování osobních údajů/Jaké osobní údaje zpracováváme" (např. do patičky, jako odkaz k formulářům, atp. na všechna místa, kde se s os. údaji pracuje)
 - [ ] Směruj starých URL na nové přes kód 301 (pokud bylo dohodnuto s klientem)
 - [ ] Zváž přidání souboru `.well-known/security.txt`
