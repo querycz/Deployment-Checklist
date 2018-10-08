@@ -16,7 +16,7 @@
 - [ ] **Check compiled CSS for unwated `@import`**
 - [ ] **Set HTML code minification**
 - [ ] **Check validity of HTML with W3C validator**
-- [ ] Consider setting JavaScript loading prioritization (see Query KB)
+- [ ] Consider setting JavaScript loading prioritization (see KB)
 - [ ] **Optimize images in ImageOptim, ImageAlpha, TinyPNG and SVGOMG**
 - [ ] **Check the web/app in IE 11+ and other browsers**
 
@@ -51,7 +51,7 @@
 	- [ ] **Connect Google Analytics and Search Console profies (in Google Analytics)**
 
 ## Search Engines
-- [ ] **Seznam** (http://search.seznam.cz/pridej-stranku)
+- [ ] **Add web to Seznam** (http://search.seznam.cz/pridej-stranku)
 
 ## Others
 - [ ] **Check accessibility of .env file from the browser in case of using dotenv variables**
