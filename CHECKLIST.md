@@ -27,45 +27,45 @@
 - [ ] **Check settings of forms if used**
 
 ## Anayltics and SEO before deploy
-- [ ] **Check , že není zakázáno indexování a procházení robotů skrz meta noindex, nofollow, nosnippet a noarchive jako pozůstatek z dev prostředí**
-- [ ] **Nasaď měřící skript Google Analytics**
+- [ ] **Check robots meta is not set for noindex, nofollow, nosnippet and noarchive**
+- [ ] **Add Google Analytics script**
 	- [ ] **Activate demography report**
-	- [ ] **Nastav délku uchování dat (Služba –> Údaje o měření –> Uchovávání dat)**
-	- [ ] Nastav setSiteSpeedSampleRate pro zvýšení vzorků pro testování rychlosti (https://goo.gl/FRHiAp)
-	- [ ] Nastav sledování událostí – event tracking (https://goo.gl/1xAgzO)
+	- [ ] **Change length of data storage (Služba –> Údaje o měření –> Uchovávání dat)**
+	- [ ] Set setSiteSpeedSampleRate for increase of speed sample rate (https://goo.gl/FRHiAp)
+	- [ ] Set event tracking (https://goo.gl/1xAgzO)
 	- [ ] Nastav sledování cílů webu
-	- [ ] Nastav omezení referral spamu (http://mareklecian.cz/spamfilter/)
-	- [ ] Aktivuj Site Search (přidat „s“)
-	- [ ] Aktivuj Analýzy na stránce (https://support.google.com/analytics/answer/2558867/?hl=cs)
-	- [ ] Doplň kód o remarketing skript (https://goo.gl/Qy7e81)
+	- [ ] Limit referral spam (http://mareklecian.cz/spamfilter/)
+	- [ ] Activate Site Search (add „s“)
+	- [ ] Activate on-site analytics (https://support.google.com/analytics/answer/2558867/?hl=cs)
+	- [ ] Add remarketing script (https://goo.gl/Qy7e81)
 
 ## WordPress after deploy
-- [ ] **Vygeneruj unikátní extra keys a salts ve wp-config.php**
-- [ ] **Nastav správných CHMOD práv adresářům (např. uploads)**
-- [ ] **Nasaď WP Super Cache**
-- [ ] Přidej web/aplikaci do konzole ManageWP (pouze u supportovaných projektů)
+- [ ] **Generate unique keys and salts for wp-config.php**
+- [ ] **Set correct CHMOD for folders (e.g. uploads)**
+- [ ] **Add and setup WP Super Cache**
+- [ ] Add web/app to ManageWP
 
 ## Analytics and SEO after deploy
-- [ ] **Registruj web/aplikaci do Google Search Console**
-	- [ ] **Podstrč sitemap.xml**
-	- [ ] **Propoj Google Analytics a Search Console profilů (na straně GA)**
+- [ ] **Add web/app to Google Search Console**
+	- [ ] **Add sitemap.xml**
+	- [ ] **Connect Google Analytics and Search Console profies (in Google Analytics)**
 
 ## Search Engines
 - [ ] **Seznam** (http://search.seznam.cz/pridej-stranku)
 
 ## Others
 - [ ] **Check accessibility of .env file from the browser in case of using dotenv variables**
-- [ ] Zvaž přidání informační stránky "Informace o zpracování osobních údajů/Jaké osobní údaje zpracováváme" (např. do patičky, jako odkaz k formulářům, atp. na všechna místa, kde se s os. údaji pracuje)
-- [ ] Směruj starých URL na nové přes kód 301 (pokud bylo dohodnuto s klientem)
-- [ ] Zváž přidání souboru `.well-known/security.txt`
-- [ ] Přidej do monitoringu Statusdroid
-- [ ] **Otestuj performance webu**
+- [ ] Consider adding an info page about privacy policy "Informace o zpracování osobních údajů/Jaké osobní údaje zpracováváme" (e.g. to the footer, as a link to forms, etc. On every place, where web/app works with personal info)
+- [ ] Redirect old URLs to new via 301 (only if was agreed with client)
+- [ ] Consider adding of `.well-known/security.txt`
+- [ ] Add to Statusdroid monitoring
+- [ ] **Test the performance of web/app**
 	- [ ] Google PageSpeed Insights (https://developers.google.com/speed/pagespeed/insights/)
 	- [ ] Google Mobile Friendly (https://search.google.com/search-console/mobile-friendly)
-	- [ ] WebPagetest (http://www.webpagetest.org) *Speed Index ideálně kolem 1000 (na LTE), průměr 5000–10000*
+	- [ ] WebPagetest (http://www.webpagetest.org) *Speed Index best around 1000 pts. (on LTE), average 5000–10000*
 	- [ ] Lighthouse (https://developers.google.com/web/tools/lighthouse/run)
-        - *First Meaningful Paint ideálně do 3 vteřin*
-        - *First Interactive ideálně nízké jednotky vteřin*
-        - *Perceptual Speed Index ideálně do 2000, nejvíce 5 000*
+        - *First Meaningful Paint best up to 3 sec.*
+        - *First Interactive ideally low units of seconds*
+        - *Perceptual Speed Index ideally up to 2000, max. 5 000*
 	- [ ] Yellow Lab Tools (http://yellowlab.tools)
 	- [ ] GTmetrix (https://gtmetrix.com)
