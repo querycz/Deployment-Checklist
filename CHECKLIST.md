@@ -65,6 +65,7 @@
 	- [ ] WebPagetest (http://www.webpagetest.org)
 		- *Speed Index best around 1000 pts. (on LTE), average 5000–10000*
 	- [ ] Lighthouse (https://developers.google.com/web/tools/lighthouse/run)
+	
        		- *First Meaningful Paint best up to 3 sec.*
         	- *First Interactive ideally low units of seconds*
         	- *Perceptual Speed Index ideally up to 2000, max. 5 000*
