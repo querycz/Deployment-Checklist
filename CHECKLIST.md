@@ -62,10 +62,12 @@
 - [ ] **Test the performance of web/app**
 	- [ ] Google PageSpeed Insights (https://developers.google.com/speed/pagespeed/insights/)
 	- [ ] Google Mobile Friendly (https://search.google.com/search-console/mobile-friendly)
-	- [ ] WebPagetest (http://www.webpagetest.org) *Speed Index best around 1000 pts. (on LTE), average 5000–10000*
+	- [ ] WebPagetest (http://www.webpagetest.org)
+		- *Speed Index best around 1000 pts. (on LTE), average 5000–10000*
 	- [ ] Lighthouse (https://developers.google.com/web/tools/lighthouse/run)
-        - *First Meaningful Paint best up to 3 sec.*
-        - *First Interactive ideally low units of seconds*
-        - *Perceptual Speed Index ideally up to 2000, max. 5 000*
+       		- *First Meaningful Paint best up to 3 sec.*
+        	- *First Interactive ideally low units of seconds*
+        	- *Perceptual Speed Index ideally up to 2000, max. 5 000*
+		- *Time To First Byte ideally up to 500 ms*
 	- [ ] Yellow Lab Tools (http://yellowlab.tools)
 	- [ ] GTmetrix (https://gtmetrix.com)
