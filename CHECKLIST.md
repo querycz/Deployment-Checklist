@@ -17,7 +17,7 @@
 - [ ] **Set HTML code minification**
 - [ ] **Check validity of HTML with W3C validator**
 - [ ] Consider setting JavaScript loading prioritization (see KB)
-- [ ] **Optimize images in ImageOptim, ImageAlpha, TinyPNG and SVGOMG**
+- [ ] **Optimize images in ImageOptim, ImageAlpha, TinyPNG, SVGOMG and Squoosh**
 - [ ] **Check the web/app in IE 11+ and other browsers**
 
 ## WordPress before deploy
