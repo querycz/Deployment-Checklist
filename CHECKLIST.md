@@ -28,7 +28,6 @@
 - [ ] **Check settings of forms if used**
 
 ## Anayltics and SEO before deploy
-- [ ] **Check robots meta is not set for noindex, nofollow, nosnippet and noarchive**
 - [ ] **Add Google Analytics script**
 	- [ ] **Activate demography report**
 	- [ ] **Change length of data storage (Služba –> Údaje o měření –> Uchovávání dat)**
@@ -47,6 +46,7 @@
 - [ ] Add web/app to ManageWP
 
 ## Analytics and SEO after deploy
+- [ ] **Check robots meta is not set for noindex,nofollow on production**
 - [ ] **Add web/app to Google Search Console**
 	- [ ] **Add sitemap.xml**
 	- [ ] **Connect Google Analytics and Search Console profies (in Google Analytics)**
@@ -70,5 +70,3 @@
 		- *First Interactive ideally low units of seconds*
 		- *Perceptual Speed Index ideally up to 2000, max. 5 000*
 		- *Time To First Byte ideally up to 500 ms*
-	- [ ] Yellow Lab Tools (http://yellowlab.tools)
-	- [ ] GTmetrix (https://gtmetrix.com)
