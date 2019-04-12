@@ -63,7 +63,6 @@
 - [ ] Add to Statusdroid monitoring
 - [ ] **Test the performance of web/app**
 	- [ ] Google PageSpeed Insights (https://developers.google.com/speed/pagespeed/insights/)
-	- [ ] Google Mobile Friendly (https://search.google.com/search-console/mobile-friendly)
 	- [ ] WebPagetest (http://www.webpagetest.org)
 		- *Speed Index best around 1000 pts. (on LTE), average 5000–10000* 
 	- [ ] Lighthouse (https://developers.google.com/web/tools/lighthouse/run)
