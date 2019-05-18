@@ -1,5 +1,3 @@
-# Deployment Checklist
-
 ## .htaccess
 - [ ] **Force www redirection of web/app domain** (see KB)
 - [ ] **Set GZip compression and caching** (see KB)
