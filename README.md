@@ -7,13 +7,11 @@
 ## Code and assets
 - [ ] **Set meta tags (meta description, etc.)**
 	- [ ] **Set Open Graph meta tags**
-	- [ ] **Check Open Graph meta tags with Facebook debugger** (https://developers.facebook.com/tools/debug/)
 - [ ] **Mark key elements by WAI ARIA standards** (see KB)
 - [ ] **Check 404 error page**
 - [ ] Consider loading of alternative fonts via Web Font Loader (https://github.com/typekit/webfontloader)
 - [ ] **Check compiled CSS for unwated `@import`**
 - [ ] **Set HTML code minification**
-- [ ] **Check validity of HTML with W3C validator**
 - [ ] Consider setting JavaScript loading prioritization (see KB)
 - [ ] **Optimize images in ImageOptim, ImageAlpha, TinyPNG, SVGOMG and Squoosh**
 - [ ] **Check the web/app in IE 11+ and other browsers**
@@ -43,8 +41,12 @@
 - [ ] **Add and setup WP Super Cache**
 - [ ] Add web/app to ManageWP
 
+## Code after deploy
+- [ ] **Check validity of HTML with W3C validator**
+
 ## Analytics and SEO after deploy
 - [ ] **Check robots meta is not set for noindex,nofollow on production**
+- [ ] **Check Open Graph meta tags with Facebook debugger** (https://developers.facebook.com/tools/debug/)
 - [ ] **Add web/app to Google Search Console**
 	- [ ] **Add sitemap.xml**
 	- [ ] **Connect Google Analytics and Search Console profies (in Google Analytics)**
