@@ -64,7 +64,7 @@
 - [ ] **Test the performance of web/app**
 	- [ ] Google PageSpeed Insights (https://developers.google.com/speed/pagespeed/insights/)
 	- [ ] WebPagetest (http://www.webpagetest.org)
-		- *Speed Index best around 1000 pts. (on LTE), average 5000–10000* 
+		- *Speed Index is best around 1000 pts. (on LTE), average 5000–10000, on "3G Slow" around 4 sec. is fine*
 	- [ ] Lighthouse (https://web.dev/measure)
 		- *First Meaningful Paint best up to 3 sec.*
 		- *First Interactive ideally low units of seconds*
