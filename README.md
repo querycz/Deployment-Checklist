@@ -13,7 +13,7 @@
 - [ ] **Check compiled CSS for unwated `@import`**
 - [ ] **Set HTML code minification**
 - [ ] Consider setting JavaScript loading prioritization (see KB)
-- [ ] **Optimize images in ImageOptim, ImageAlpha, TinyPNG, SVGOMG and Squoosh**
+- [ ] **Optimize images in Optimage, TinyPNG, SVGOMG (or ImageOptim, ImageAlpha, Squoosh)**
 - [ ] **Check the web/app in IE 11+ and other browsers**
 - [ ] **Generate critical CSS**
 
