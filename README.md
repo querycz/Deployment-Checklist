@@ -20,6 +20,7 @@
 ## WordPress before deploy
 - [ ] **Change admin password**
 - [ ] **Remove or disallow access to readme.html and licence.txt files**
+- [ ] **Review image sizes WordPress prints**
 - [ ] Consider setting auto update of plugins
 - [ ] **Check settings of forms if used**
 
