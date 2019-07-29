@@ -40,6 +40,7 @@
 - [ ] **Generate unique keys and salts for wp-config.php**
 - [ ] **Set correct CHMOD for folders (e.g. uploads)**
 - [ ] **Add and setup WP Super Cache**
+- [ ] **Set up Akismet plugin if CF7 forms are used**
 - [ ] Add web/app to ManageWP
 
 ## Code after deploy
