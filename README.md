@@ -1,5 +1,5 @@
 ## .htaccess
-- [ ] **Force www redirection of web/app domain** (see KB)
+- [ ] **Force www redirection of website/app domain** (see KB)
 - [ ] **Set GZip compression and caching** (see KB)
 - [ ] **Activate SSL certificate and force redirect to HTTPS protocol** (see KB)
 	- [ ] Make sure every URL a assets are using the HTTPS protocol
@@ -14,7 +14,7 @@
 - [ ] **Set HTML code minification**
 - [ ] Consider setting JavaScript loading prioritization (see KB)
 - [ ] **Optimize images in Optimage, TinyPNG, SVGOMG (or ImageOptim, ImageAlpha, Squoosh)**
-- [ ] **Check the web/app in IE 11+ and other browsers**
+- [ ] **Check the website/app in IE 11+ and other browsers**
 - [ ] **Generate critical CSS**
 
 ## WordPress before deploy
@@ -41,7 +41,7 @@
 - [ ] **Set correct CHMOD for folders (e.g. uploads)**
 - [ ] **Add and setup WP Super Cache**
 - [ ] **Set up Akismet plugin if CF7 forms are used**
-- [ ] Add web/app to ManageWP
+- [ ] Add website/app to ManageWP
 
 ## Code after deploy
 - [ ] **Check validity of HTML with W3C validator**
@@ -49,22 +49,22 @@
 ## Analytics and SEO after deploy
 - [ ] **Check robots meta is not set for noindex,nofollow on production**
 - [ ] **Check Open Graph meta tags with Facebook debugger** (https://developers.facebook.com/tools/debug/)
-- [ ] **Add web/app to Google Search Console**
+- [ ] **Add website/app to Google Search Console**
 	- [ ] **Add sitemap.xml**
 	- [ ] **Connect Google Analytics and Search Console profies (in Google Analytics)**
 
 ## Search Engines
-- [ ] **Add web to Seznam** (http://search.seznam.cz/pridej-stranku)
+- [ ] **Add website to Seznam** (http://search.seznam.cz/pridej-stranku)
 
 ## Others
 - [ ] **Check accessibility of .env file from the browser in case of using dotenv variables**
-- [ ] Consider adding an info page about privacy policy "Informace o zpracování osobních údajů/Jaké osobní údaje zpracováváme/Zásady zpracování osobních údajů" (e.g. to the footer, as a link to forms, etc. On every place, where web/app works with personal info)
+- [ ] Consider adding an info page about privacy policy "Informace o zpracování osobních údajů/Jaké osobní údaje zpracováváme/Zásady zpracování osobních údajů" (e.g. to the footer, as a link to forms, etc. On every place, where website/app works with personal info)
 - [ ] Test forms
 - [ ] Redirect old URLs to new via 301 (only if was agreed with client)
 - [ ] Consider dennying access to the authors page
 - [ ] Consider adding of `.well-known/security.txt`
 - [ ] Add to Statusdroid monitoring
-- [ ] **Test the performance of web/app**
+- [ ] **Test the performance of website/app**
 	- [ ] Google PageSpeed Insights (https://developers.google.com/speed/pagespeed/insights/)
 	- [ ] WebPagetest (http://www.webpagetest.org)
 		- *Speed Index is best around 1000 pts. (on LTE), average 5000–10000, on "3G Slow" around 4 sec. is fine*
