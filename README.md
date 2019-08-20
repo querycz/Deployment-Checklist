@@ -59,6 +59,7 @@
 ## Others
 - [ ] **Check accessibility of .env file from the browser in case of using dotenv variables**
 - [ ] Consider adding an info page about privacy policy "Informace o zpracování osobních údajů/Jaké osobní údaje zpracováváme/Zásady zpracování osobních údajů" (e.g. to the footer, as a link to forms, etc. On every place, where web/app works with personal info)
+- [ ] Test forms
 - [ ] Redirect old URLs to new via 301 (only if was agreed with client)
 - [ ] Consider dennying access to the authors page
 - [ ] Consider adding of `.well-known/security.txt`
