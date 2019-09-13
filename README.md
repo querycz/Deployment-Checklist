@@ -12,6 +12,7 @@
 - [ ] Consider loading of alternative fonts via Web Font Loader (https://github.com/typekit/webfontloader)
 - [ ] **Check compiled CSS for unwated `@import`**
 - [ ] **Set HTML code minification**
+- [ ] **Consider lazyloading of images or/and iframes**
 - [ ] Consider setting JavaScript loading prioritization (see KB)
 - [ ] **Optimize images in Optimage, TinyPNG, SVGOMG (or ImageOptim, ImageAlpha, Squoosh)**
 - [ ] **Check the website/app in IE 11+ and other browsers**
