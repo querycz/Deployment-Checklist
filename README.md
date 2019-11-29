@@ -16,7 +16,6 @@
 - [ ] Consider setting JavaScript loading prioritization (see KB)
 - [ ] **Optimize images in Optimage, TinyPNG, SVGOMG (or ImageOptim, ImageAlpha, Squoosh)**
 - [ ] **Check the website/app in IE 11+ and other browsers**
-- [ ] **Generate critical CSS**
 
 ## WordPress before deploy
 - [ ] **Change admin password**
