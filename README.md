@@ -46,7 +46,8 @@
 ## Code after deploy
 - [ ] **Check validity of HTML with W3C validator**
 
-## Analytics and SEO after deploy
+## Analytics, security and SEO after deploy
+- [ ] **Enable Security Headers**
 - [ ] **Check robots meta is not set for noindex,nofollow on production**
 - [ ] **Check Open Graph meta tags with Facebook debugger** (https://developers.facebook.com/tools/debug/)
 - [ ] **Add website/app to Google Search Console**
@@ -64,6 +65,7 @@
 - [ ] Consider dennying access to the authors page
 - [ ] Consider adding of `.well-known/security.txt`
 - [ ] Add to Statusdroid monitoring
+- [ ] Test Security Headers (https://securityheaders.com)
 - [ ] **Test the performance of website/app**
 	- [ ] Google PageSpeed Insights (https://developers.google.com/speed/pagespeed/insights/)
 	- [ ] WebPagetest (http://www.webpagetest.org)
@@ -73,4 +75,3 @@
 		- *First Interactive ideally low units of seconds*
 		- *Perceptual Speed Index ideally up to 2000, max. 5 000*
 		- *Time To First Byte ideally up to 500 ms*
-
