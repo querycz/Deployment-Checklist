@@ -38,6 +38,7 @@
 
 ## WordPress after deploy
 - [ ] **Generate unique keys and salts for wp-config.php**
+- [ ] **Set FTP credentials to wp-config.php**
 - [ ] **Set correct CHMOD for folders (e.g. uploads)**
 - [ ] **Add and setup WP Super Cache**
 - [ ] **Set up Akismet plugin if CF7 forms are used**
