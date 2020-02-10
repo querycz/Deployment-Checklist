@@ -34,7 +34,7 @@ Basic deployment checklist before WordPress deployment.
 	- [ ] Change length of data storage (Služba –> Údaje o měření –> Uchovávání dat)
 	- [ ] _(Optional)_ Set setSiteSpeedSampleRate for increase of speed sample rate (https://goo.gl/FRHiAp) 
 	- [ ] _(Optional)_ Set event tracking (https://goo.gl/1xAgzO) 
-	- [ ] _(Optional)_ Nastav sledování cílů webu
+	- [ ] _(Optional)_ Set conversion goals
 	- [ ] _(Optional)_ Limit referral spam (http://mareklecian.cz/spamfilter/)
 	- [ ] _(Optional)_ Activate Site Search (add „s“)
 	- [ ] _(Optional)_ Activate on-site analytics (https://support.google.com/analytics/answer/2558867/?hl=cs)
