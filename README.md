@@ -28,7 +28,7 @@ Basic deployment checklist before WordPress deployment.
 - [ ] _(Optional)_ Consider setting auto update of plugins
 - [ ] Check settings of forms if used
 
-## Anayltics and SEO before deploy
+## Analytics and SEO before deploy
 - [ ] Add Google Analytics script
 	- [ ] Activate demography report
 	- [ ] Change length of data storage (Služba –> Údaje o měření –> Uchovávání dat)
