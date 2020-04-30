@@ -2,13 +2,15 @@
 
 > Basic deployment checklist before WordPress deployment
 
-## .htaccess
+## Before Deploy
+
+### .htaccess
 - [ ] Force "www" redirect of website/app
 - [ ] Enable GZip compression and caching
 - [ ] Activate SSL certificate and force HTTPS redirection
 	- [ ] Verify that every assets and route is using HTTPS
 
-## Code and Assets
+### Code and Assets
 - [ ] Set meta tags (meta description, etc.)
 	- [ ] Set Open Graph meta tags
 - [ ] Mark key elements according to WAI ARIA
@@ -20,12 +22,13 @@
 - [ ] Optimize images in Optimage, TinyPNG, SVGOMG (eventuálně ImageOptim, ImageAlpha, Squoosh)
 - [ ] Check website/app in IE 11+ and alternative browsers
 
-## WordPress before deploy
+### WordPress
 - [ ] Change admin password
 - [ ] Disallow access to readme.html and licence.txt
+- [ ] _(Optional)_ Consider disallow access to the authors archive
 - [ ] Check image size WordPress prints
 
-## Analytics and SEO before deploy
+### Analytics and SEO
 - [ ] Add Google Analytics script
 	- [ ] Activate Demography report
 	- [ ] Změnit délku uchovávání dat (Služba –> Údaje o měření –> Uchovávání dat)
@@ -36,7 +39,9 @@
 	- [ ] _(Volitelné)_ Aktivovat vyhledávání na stránce (přidání „s“)
 	- [ ] _(Volitelné)_ Aktivovat on-site analytics (https://support.google.com/analytics/answer/2558867/?hl=cs)
 
-## WordPress after deploy
+## After Deploy
+
+### WordPress
 - [ ] Set unique keys and salts in wp-config.php
 - [ ] Set FTP credentials in wp-config.php
 - [ ] Set correct CHMOD for folders (e.g. uploads)
@@ -45,26 +50,24 @@
 - [ ] Test forms
 - [ ] _(Optional)_ Add website/app to ManageWP
 
-## Code after deploy
+### Code
 - [ ] Check validity of HTML with W3C validator
 
-## Analytics, security and SEO after deploy
+### Analytics, security and SEO
 - [ ] Enable Security Headers
 - [ ] Check robots meta is not set for noindex,nofollow on production
 - [ ] Check Open Graph meta tags with Facebook debugger (https://developers.facebook.com/tools/debug/)
 - [ ] Add website/app to Google Search Console
 	- [ ] Add sitemap.xml
-	- [ ] Connect Google Analytics and Search Console profies (in Google Analytics)
+	- [ ] Connect Google Analytics and Search Console profiles (in Google Analytics)
 
-## Search engines
+### Search engines
 - [ ] Add website to Seznam.cz (http://search.seznam.cz/pridej-stranku)
 
-## Others
+### Others
 - [ ] Check if .env file is not accessible from the browser
-- [ ] _(Optional)_ Consider adding an info page about privacy policy "Informace o zpracování osobních údajů/Jaké osobní údaje zpracováváme/Zásady zpracování osobních údajů" (e.g. to the footer, as a link to forms, etc. On every place, where website/app works with personal info)
-- [ ] Test forms
-- [ ] _(Optional)_ Redirect old URLs to new via 301 (only if was agreed with client)
-- [ ] _(Optional)_ Consider dennying access to the authors page
+- [ ] _(Optional)_ Add info page about privacy policy and cookies
+- [ ] _(Optional)_ Redirect old URLs to new via 301
 - [ ] _(Optional)_ Consider adding of `.well-known/security.txt`
 - [ ] _(Optional)_ Add to Statusdroid monitoring
 - [ ] _(Optional)_ Test Security Headers (https://securityheaders.com)
