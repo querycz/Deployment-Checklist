@@ -1,6 +1,6 @@
 # Deployment Checklist ☑️
 
-Basic deployment checklist before WordPress deployment
+> Basic deployment checklist before WordPress deployment
 
 ## .htaccess
 - [ ] Force "www" redirect of website/app
