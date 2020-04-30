@@ -20,14 +20,14 @@
 - [ ] Optimize images in Optimage, TinyPNG, SVGOMG (eventuálně ImageOptim, ImageAlpha, Squoosh)
 - [ ] Check website/app in IE 11+ and alternative browsers
 
-## WordPress before Deployment
+## WordPress before deploy
 - [ ] Change admin password
 - [ ] Disallow access to readme.html and licence.txt
 - [ ] Check image size WordPress prints
 
-## Analytika a SEO před deployem
-- [ ] Přidat Google Analytics skript
-	- [ ] Aktivovat report Demografie
+## Analytics and SEO before deploy
+- [ ] Add Google Analytics script
+	- [ ] Activate Demography report
 	- [ ] Změnit délku uchovávání dat (Služba –> Údaje o měření –> Uchovávání dat)
 	- [ ] _(Volitelné)_ Nastavit setSiteSpeedSampleRate for increase of speed sample rate (https://goo.gl/FRHiAp) 
 	- [ ] _(Volitelné)_ Nastavit event tracking (https://goo.gl/1xAgzO) 
@@ -37,12 +37,12 @@
 	- [ ] _(Volitelné)_ Aktivovat on-site analytics (https://support.google.com/analytics/answer/2558867/?hl=cs)
 
 ## WordPress after deploy
-- [ ] Generate unique keys and salts for wp-config.php
-- [ ] Set FTP credentials to wp-config.php
+- [ ] Set unique keys and salts in wp-config.php
+- [ ] Set FTP credentials in wp-config.php
 - [ ] Set correct CHMOD for folders (e.g. uploads)
-- [ ] Add and setup WP Super Cache
+- [ ] Enable and set WP Super Cache
 - [ ] Set up Akismet plugin if CF7 forms are used
-- [ ] Otestovat formuláře
+- [ ] Test forms
 - [ ] _(Optional)_ Add website/app to ManageWP
 
 ## Code after deploy
@@ -56,11 +56,11 @@
 	- [ ] Add sitemap.xml
 	- [ ] Connect Google Analytics and Search Console profies (in Google Analytics)
 
-## Search Engines
+## Search engines
 - [ ] Add website to Seznam.cz (http://search.seznam.cz/pridej-stranku)
 
 ## Others
-- [ ] Check accessibility of .env file from the browser in case of using dotenv variables
+- [ ] Check if .env file is not accessible from the browser
 - [ ] _(Optional)_ Consider adding an info page about privacy policy "Informace o zpracování osobních údajů/Jaké osobní údaje zpracováváme/Zásady zpracování osobních údajů" (e.g. to the footer, as a link to forms, etc. On every place, where website/app works with personal info)
 - [ ] Test forms
 - [ ] _(Optional)_ Redirect old URLs to new via 301 (only if was agreed with client)
