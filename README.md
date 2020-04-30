@@ -3,27 +3,27 @@
 Basic deployment checklist before WordPress deployment
 
 ## .htaccess
-- [ ] Vynutit přesměrování na "www" variantu webu/aplikace
-- [ ] Zapnout GZip kompresy a kešování
-- [ ] Aktivovat SSL certifikát a vynutit přesměrování na HTTPS
-	- [ ] Ověřit, že každý zdroj a stránka používá HTTPS
+- [ ] Force "www" redirect of website/app
+- [ ] Enable GZip compression and caching
+- [ ] Activate SSL certificate and force HTTPS redirection
+	- [ ] Verify that every assets and route is using HTTPS
 
-## Kód a zdroje
-- [ ] Nastavit meta tagy (meta description, atd.)
-	- [ ] Nastavit Open Graph meta tagy
-- [ ] Označit klíčové elementy dle WAI ARIA
-- [ ] Ověřit stránku 404
-- [ ] Ověřit, že v kompliovaných CSS není `@import`
-- [ ] Nastavit HTML minifikaci
-- [ ] _(Volitelné)_ Nastavit lazyloading obrázků a iframů
-- [ ] _(Volitelné)_ Nastavit JavaScript prioritizaci
-- [ ] Optimalizovat obrázky v Optimage, TinyPNG, SVGOMG (eventuálně ImageOptim, ImageAlpha, Squoosh)
-- [ ] Kontrola webu/aplikace v IE 11+ a alternativních prohlížečích
+## Code and Assets
+- [ ] Set meta tags (meta description, etc.)
+	- [ ] Set Open Graph meta tags
+- [ ] Mark key elements according to WAI ARIA
+- [ ] Check 404 error page
+- [ ] Check CSS for unwanted `@import`
+- [ ] Enable HTML minification
+- [ ] _(Optional)_ Add lazyloading off images and iframes
+- [ ] _(Optional)_ Set JavaScript prioritization
+- [ ] Optimize images in Optimage, TinyPNG, SVGOMG (eventuálně ImageOptim, ImageAlpha, Squoosh)
+- [ ] Check website/app in IE 11+ and alternative browsers
 
-## WordPress před deployem
-- [ ] Změnit heslo administrátora
-- [ ] Zamezit přístup k readme.html a licence.txt
-- [ ] Revidovat velikosti WordPress obrázků
+## WordPress before Deployment
+- [ ] Change admin password
+- [ ] Disallow access to readme.html and licence.txt
+- [ ] Check image size WordPress prints
 
 ## Analytika a SEO před deployem
 - [ ] Přidat Google Analytics skript
