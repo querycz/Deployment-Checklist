@@ -1,6 +1,6 @@
 # Deployment Checklist ☑️
 
-Basic deployment checklist before WordPress deployment.
+Basic deployment checklist before WordPress deployment
 
 ## .htaccess
 - [ ] Vynutit přesměrování na "www" variantu webu/aplikace
@@ -22,22 +22,19 @@ Basic deployment checklist before WordPress deployment.
 
 ## WordPress před deployem
 - [ ] Změnit heslo administrátora
-- [ ] Remove or disallow access to readme.html and licence.txt files
-- [ ] Review image sizes WordPress prints
-- [ ] _(Optional)_ Consider setting auto update of plugins
-- [ ] Check settings of forms if used
+- [ ] Zamezit přístup k readme.html a licence.txt
+- [ ] Revidovat velikosti WordPress obrázků
 
-## Analytics and SEO before deploy
-- [ ] Add Google Analytics script
-	- [ ] Activate demography report
-	- [ ] Change length of data storage (Služba –> Údaje o měření –> Uchovávání dat)
-	- [ ] _(Optional)_ Set setSiteSpeedSampleRate for increase of speed sample rate (https://goo.gl/FRHiAp) 
-	- [ ] _(Optional)_ Set event tracking (https://goo.gl/1xAgzO) 
-	- [ ] _(Optional)_ Set conversion goals
-	- [ ] _(Optional)_ Limit referral spam (http://mareklecian.cz/spamfilter/)
-	- [ ] _(Optional)_ Activate Site Search (add „s“)
-	- [ ] _(Optional)_ Activate on-site analytics (https://support.google.com/analytics/answer/2558867/?hl=cs)
-	- [ ] _(Optional)_ Add remarketing script (https://goo.gl/Qy7e81)
+## Analytika a SEO před deployem
+- [ ] Přidat Google Analytics skript
+	- [ ] Aktivovat report Demografie
+	- [ ] Změnit délku uchovávání dat (Služba –> Údaje o měření –> Uchovávání dat)
+	- [ ] _(Volitelné)_ Nastavit setSiteSpeedSampleRate for increase of speed sample rate (https://goo.gl/FRHiAp) 
+	- [ ] _(Volitelné)_ Nastavit event tracking (https://goo.gl/1xAgzO) 
+	- [ ] _(Volitelné)_ Nastavit konverzní cíle
+	- [ ] _(Volitelné)_ Omezit referral spam (http://mareklecian.cz/spamfilter/)
+	- [ ] _(Volitelné)_ Aktivovat vyhledávání na stránce (přidání „s“)
+	- [ ] _(Volitelné)_ Aktivovat on-site analytics (https://support.google.com/analytics/answer/2558867/?hl=cs)
 
 ## WordPress after deploy
 - [ ] Generate unique keys and salts for wp-config.php
@@ -45,6 +42,7 @@ Basic deployment checklist before WordPress deployment.
 - [ ] Set correct CHMOD for folders (e.g. uploads)
 - [ ] Add and setup WP Super Cache
 - [ ] Set up Akismet plugin if CF7 forms are used
+- [ ] Otestovat formuláře
 - [ ] _(Optional)_ Add website/app to ManageWP
 
 ## Code after deploy
