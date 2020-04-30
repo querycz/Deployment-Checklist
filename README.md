@@ -50,11 +50,9 @@
 - [ ] Test forms
 - [ ] _(Optional)_ Add website/app to ManageWP
 
-### Code
-- [ ] Check validity of HTML with W3C validator
-
 ### Analytics, security and SEO
 - [ ] Enable Security Headers
+- [ ] Check validity of HTML with W3C validator
 - [ ] Check robots meta is not set for noindex,nofollow on production
 - [ ] Check Open Graph meta tags with Facebook debugger (https://developers.facebook.com/tools/debug/)
 - [ ] Add website/app to Google Search Console
@@ -71,12 +69,11 @@
 - [ ] _(Optional)_ Consider adding of `.well-known/security.txt`
 - [ ] _(Optional)_ Add to Statusdroid monitoring
 - [ ] _(Optional)_ Test Security Headers (https://securityheaders.com)
-- [ ] Test the performance of website/app
-	- [ ] Google PageSpeed Insights (https://developers.google.com/speed/pagespeed/insights/)
-	- [ ] WebPagetest (http://www.webpagetest.org)
-		- _Speed Index is best around 1000 pts. (on LTE), average 5000–10000, on "3G Slow" around 4 sec. is fine_
-	- [ ] Lighthouse (https://web.dev/measure)
-		- _First Meaningful Paint best up to 3 sec._
-		- _First Interactive ideally low units of seconds_
-		- _Perceptual Speed Index ideally up to 2000, max. 5 000_
-		- _Time To First Byte ideally up to 500 ms_
+- [ ] Test performance in Google PageSpeed Insights (https://developers.google.com/speed/pagespeed/insights/
+- [ ] Test performance in WebPagetest (http://www.webpagetest.org)
+	- _Speed Index is best around 1000 pts. (on LTE), average 5000–10000, on "3G Slow" around 4 sec. is fine_
+- [ ] Test performance in Lighthouse (https://web.dev/measure)
+	- _First Meaningful Paint best up to 3 sec._
+	- _First Interactive ideally low units of seconds_
+	- _Perceptual Speed Index ideally up to 2000, max. 5 000_
+	- _Time To First Byte ideally up to 500 ms_
