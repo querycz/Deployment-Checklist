@@ -3,26 +3,25 @@
 Basic deployment checklist before WordPress deployment.
 
 ## .htaccess
-- [ ] Force www redirection of website/app domain
-- [ ] Set GZip compression and caching
-- [ ] Activate SSL certificate and force redirect to HTTPS protocol
-	- [ ] Make sure every asset is using the HTTPS protocol
+- [ ] Vynutit přesměrování na "www" variantu webu/aplikace
+- [ ] Zapnout GZip kompresy a kešování
+- [ ] Aktivovat SSL certifikát a vynutit přesměrování na HTTPS
+	- [ ] Ověřit, že každý zdroj a stránka používá HTTPS
 
-## Code and assets
-- [ ] Set meta tags (meta description, etc.)
-	- [ ] Set Open Graph meta tags
-- [ ] Mark key elements by WAI ARIA standards
-- [ ] Check 404 error page
-- [ ] _(Optional)_ Consider loading of alternative fonts via Web Font Loader (https://github.com/typekit/webfontloader)
-- [ ] Check compiled CSS for unwated `@import`
-- [ ] Set HTML code minification
-- [ ] Consider lazyloading of images or/and iframes
-- [ ] _(Optional)_ Consider setting JavaScript loading prioritization
-- [ ] Optimize images in Optimage, TinyPNG, SVGOMG (or ImageOptim, ImageAlpha, Squoosh)
-- [ ] Check the website/app in IE 11+ and other browsers
+## Kód a zdroje
+- [ ] Nastavit meta tagy (meta description, atd.)
+	- [ ] Nastavit Open Graph meta tagy
+- [ ] Označit klíčové elementy dle WAI ARIA
+- [ ] Ověřit stránku 404
+- [ ] Ověřit, že v kompliovaných CSS není `@import`
+- [ ] Nastavit HTML minifikaci
+- [ ] _(Volitelné)_ Nastavit lazyloading obrázků a iframů
+- [ ] _(Volitelné)_ Nastavit JavaScript prioritizaci
+- [ ] Optimalizovat obrázky v Optimage, TinyPNG, SVGOMG (eventuálně ImageOptim, ImageAlpha, Squoosh)
+- [ ] Kontrola webu/aplikace v IE 11+ a alternativních prohlížečích
 
-## WordPress before deploy
-- [ ] Change admin password
+## WordPress před deployem
+- [ ] Změnit heslo administrátora
 - [ ] Remove or disallow access to readme.html and licence.txt files
 - [ ] Review image sizes WordPress prints
 - [ ] _(Optional)_ Consider setting auto update of plugins
