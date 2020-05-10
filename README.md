@@ -1,36 +1,36 @@
 # Deployment Checklist ☑️
 
-> Basic deployment checklist before WordPress deployment
+> Základní checklist používaný nejen při WordPress deploymentu
 
-## Before Deploy
+## Před deployem
 
 ### .htaccess
-- [ ] Force "www" redirect of website/app
-- [ ] Enable GZip compression and caching
-- [ ] Activate SSL certificate and force HTTPS redirection
-	- [ ] Verify that every assets and route is using HTTPS
+- [ ] Vynutit přesměrování webu/aplikace na "www"
+- [ ] Aktivovat GZip kompresi a Cache-Control
+- [ ] Aktivovat SSL certifikát a vynutit přesměrování na HTTPS
+	- [ ] Ověřit, že každý asset a URL používá HTTPS
 
-### Code and Assets
-- [ ] Set meta tags (meta description, etc.)
-	- [ ] Set Open Graph meta tags
-- [ ] Mark key elements according to WAI ARIA
-- [ ] Check 404 error page
-- [ ] Check CSS for unwanted `@import`
-- [ ] Enable HTML minification
-- [ ] _(Optional)_ Add lazyloading off images and iframes
-- [ ] _(Optional)_ Set JavaScript prioritization
-- [ ] Optimize images in Optimage, TinyPNG, SVGOMG (eventuálně ImageOptim, ImageAlpha, Squoosh)
-- [ ] Check website/app in IE 11+ and alternative browsers
+### Kód a assety
+- [ ] Nastavit meta tagy (meta description, atd.)
+	- [ ] Nastavit Open Graph meta tagy
+- [ ] Označit klíčové elementy dle WAI ARIA
+- [ ] Ověřit 404 chybovou stránku
+- [ ] Ověřit, že zkompilované CSS neobsahuje nechtěné `@import`
+- [ ] Aktivovat HTML minifikaci
+- [ ] _(Volitelné)_ Přidat lazyloading obrázků a/nebo iframů
+- [ ] _(Volitelné)_ Nastavit prioritizaci JavaScriptu
+- [ ] Optimalizovat obrázky v Optimage, TinyPNG, SVGOMG (eventuálně ImageOptim, ImageAlpha, Squoosh)
+- [ ] Zkontrolovat web/aplikaci v IE 11+ a alternativných prohlížečích
 
 ### WordPress
-- [ ] Change admin password
-- [ ] Disallow access to readme.html and licence.txt
-- [ ] _(Optional)_ Consider disallow access to the authors archive
-- [ ] Check image size WordPress prints
+- [ ] Změnit heslo administrátora
+- [ ] Znemožnit přístup k readme.html a licence.txt
+- [ ] _(Volitelné)_ Znemožnit přístup k archívu autorů
+- [ ] Ověřit rozměry obrázků, které jsou zobrazovány
 
-### Analytics and SEO
-- [ ] Add Google Analytics script
-	- [ ] Activate Demography report
+### Analytika a SEO
+- [ ] Přidat Google Analytics skript
+	- [ ] Aktivovat report Demografie
 	- [ ] Změnit délku uchovávání dat (Služba –> Údaje o měření –> Uchovávání dat)
 	- [ ] _(Volitelné)_ Nastavit setSiteSpeedSampleRate for increase of speed sample rate (https://goo.gl/FRHiAp) 
 	- [ ] _(Volitelné)_ Nastavit event tracking (https://goo.gl/1xAgzO) 
@@ -39,41 +39,41 @@
 	- [ ] _(Volitelné)_ Aktivovat vyhledávání na stránce (přidání „s“)
 	- [ ] _(Volitelné)_ Aktivovat on-site analytics (https://support.google.com/analytics/answer/2558867/?hl=cs)
 
-## After Deploy
+## Po deployi
 
 ### WordPress
-- [ ] Set unique keys and salts in wp-config.php
-- [ ] Set FTP credentials in wp-config.php
-- [ ] Set correct CHMOD for folders (e.g. uploads)
-- [ ] Enable and set WP Super Cache
-- [ ] Set up Akismet plugin if CF7 forms are used
-- [ ] Test forms
-- [ ] _(Optional)_ Add website/app to ManageWP
+- [ ] Nastavit unikátní keys a salts ve wp-config.php
+- [ ] Nastavit FTP přístupy ve wp-config.php
+- [ ] Nastavit správná CHMOD práva pro adresáře (např. uploads)
+- [ ] Aktivovat a nastavit WP Super Cache
+- [ ] Nastavit Akismet pokud je použit Contact Form 7
+- [ ] Otestovat formuláře
+- [ ] _(Volitelné)_ Přidat web do ManageWP
 
-### Analytics, security and SEO
-- [ ] Enable Security Headers
-- [ ] Check validity of HTML with W3C validator
-- [ ] Check robots meta is not set for noindex,nofollow on production
-- [ ] Check Open Graph meta tags with Facebook debugger (https://developers.facebook.com/tools/debug/)
-- [ ] Add website/app to Google Search Console
-	- [ ] Add sitemap.xml
-	- [ ] Connect Google Analytics and Search Console profiles (in Google Analytics)
+### Analytika, bezpečnost a SEO
+- [ ] Ověřit, že .env není přístupný z prohlížeče
+- [ ] Aktivovat Security Headers
+- [ ] Ověřit validitu HTML přes W3C validátor
+- [ ] Ověřit, že meta robots není nastaven na produkci nastaven na noindex,nofollow
+- [ ] Ověřit Open Graph meta tagy Facebook debuggerem (https://developers.facebook.com/tools/debug/)
+- [ ] Přidat web/aplikaci do Google Search Console
+	- [ ] Přidat sitemap.xml
+	- [ ] Propojit Google Analytics a Search Console profily (v Google Analytics)
 
-### Search engines
-- [ ] Add website to Seznam.cz (http://search.seznam.cz/pridej-stranku)
+### Vyhledáváče
+- [ ] Podstrčit web Seznam.cz (http://search.seznam.cz/pridej-stranku)
 
-### Others
-- [ ] Check if .env file is not accessible from the browser
-- [ ] _(Optional)_ Add info page about privacy policy and cookies
-- [ ] _(Optional)_ Redirect old URLs to new via 301
-- [ ] _(Optional)_ Consider adding of `.well-known/security.txt`
-- [ ] _(Optional)_ Add to Statusdroid monitoring
-- [ ] _(Optional)_ Test Security Headers (https://securityheaders.com)
-- [ ] Test performance in Google PageSpeed Insights (https://developers.google.com/speed/pagespeed/insights/
-- [ ] Test performance in WebPagetest (http://www.webpagetest.org)
-	- _Speed Index is best around 1000 pts. (on LTE), average 5000–10000, on "3G Slow" around 4 sec. is fine_
-- [ ] Test performance in Lighthouse (https://web.dev/measure)
-	- _First Meaningful Paint best up to 3 sec._
-	- _First Interactive ideally low units of seconds_
-	- _Perceptual Speed Index ideally up to 2000, max. 5 000_
-	- _Time To First Byte ideally up to 500 ms_
+### Ostatní
+- [ ] Přidat stránky o zpracování osobních údajů a cookies
+- [ ] _(Volitelné)_ Přesměrovat stará URL na nová přes 301
+- [ ] _(Volitelné)_ Přidat `.well-known/security.txt`
+- [ ] _(Volitelné)_ Registrovat do Statusdroid monitoringu
+- [ ] Ověřit Security Headers (https://securityheaders.com)
+- [ ] Otestovat výkon v Google PageSpeed Insights (https://developers.google.com/speed/pagespeed/insights/
+- [ ] Otestovat výkon v WebPagetest (http://www.webpagetest.org)
+	- _Speed Index nejlépe okolo 1000 pts. (na LTE), průměr 5000–10000, na "3G Slow" je ok okolo 4 sek._
+- [ ] Otestovat výkon v Lighthouse (https://web.dev/measure)
+	- _First Meaningful Paint nejlépe do 3 sek._
+	- _First Interactive nejlépe nízké jednotky sek._
+	- _Perceptual Speed Index nejlépe do 2000, max. do 5 000_
+	- _Time To First Byte nejlépe do 500 ms_
