@@ -64,7 +64,8 @@
 - [ ] Podstrčit web Seznam.cz (http://search.seznam.cz/pridej-stranku)
 
 ### Ostatní
-- [ ] Přidat stránky o zpracování osobních údajů a cookies
+- [ ] Přidat stránky Zpracování osobních údajů a Zpracování cookies
+- [ ] _(Volitelné)_ Přidat stránku Veřejných obchodních podmínek
 - [ ] _(Volitelné)_ Přesměrovat stará URL na nová přes 301
 - [ ] _(Volitelné)_ Přidat `.well-known/security.txt`
 - [ ] _(Volitelné)_ Registrovat do Statusdroid monitoringu
