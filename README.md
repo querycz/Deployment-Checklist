@@ -68,7 +68,7 @@
 - [ ] _(Volitelné)_ Přidat stránku Veřejných obchodních podmínek
 - [ ] _(Volitelné)_ Přesměrovat stará URL na nová přes 301
 - [ ] _(Volitelné)_ Přidat `.well-known/security.txt`
-- [ ] _(Volitelné)_ Registrovat do Statusdroid monitoringu
+- [ ] _(Volitelné)_ Registrovat do Server Monitoru
 - [ ] Ověřit Security Headers (https://securityheaders.com)
 - [ ] Otestovat výkon v Google PageSpeed Insights (https://developers.google.com/speed/pagespeed/insights/
 - [ ] Otestovat výkon v WebPagetest (http://www.webpagetest.org)
