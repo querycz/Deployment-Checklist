@@ -35,9 +35,7 @@
 	- [ ] _(Volitelné)_ Nastavit setSiteSpeedSampleRate for increase of speed sample rate (https://goo.gl/FRHiAp) 
 	- [ ] _(Volitelné)_ Nastavit event tracking (https://goo.gl/1xAgzO) 
 	- [ ] _(Volitelné)_ Nastavit konverzní cíle
-	- [ ] _(Volitelné)_ Omezit referral spam (http://mareklecian.cz/spamfilter/)
 	- [ ] _(Volitelné)_ Aktivovat vyhledávání na stránce (přidání „s“)
-	- [ ] _(Volitelné)_ Aktivovat on-site analytics (https://support.google.com/analytics/answer/2558867/?hl=cs)
 
 ## Po deployi
 
