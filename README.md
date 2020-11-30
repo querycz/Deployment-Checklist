@@ -68,7 +68,8 @@
 - [ ] _(Volitelné)_ Přidat `.well-known/security.txt`
 - [ ] _(Volitelné)_ Registrovat do Server Monitoru
 - [ ] Ověřit Security Headers (https://securityheaders.com)
-- [ ] Otestovat výkon v Google PageSpeed Insights (https://developers.google.com/speed/pagespeed/insights/
+- [ ] Otestovat výkon v Google PageSpeed Insights (https://developers.google.com/speed/pagespeed/insights/)
+- [ ] Otestovat Cumulative Layout Shift (https://defaced.dev/tools/layout-shift-gif-generator/)
 - [ ] Otestovat výkon v WebPagetest (http://www.webpagetest.org)
 	- _Speed Index nejlépe okolo 1000 pts. (na LTE), průměr 5000–10000, na "3G Slow" je ok okolo 4 sek._
 - [ ] Otestovat výkon v Lighthouse (https://web.dev/measure)
