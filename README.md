@@ -19,7 +19,7 @@
 - [ ] Aktivovat HTML minifikaci
 - [ ] Přidat lazy loading obrázků a/nebo iframů
 - [ ] Ověřit, že obrázky mají definované rozměry kvůli Cumulative Layout Shift
-- [ ] _(Volitelné)_ Nastavit prioritizaci JavaScriptu
+- [ ] Nastavit `dependOn` ve webpacku u sdílených komponent pro zamezení duplikace
 - [ ] Optimalizovat obrázky v Optimage, TinyPNG, SVGOMG (eventuálně ImageOptim, ImageAlpha, Squoosh)
 - [ ] Zkontrolovat web/aplikaci v IE 11+ a alternativných prohlížečích
 
