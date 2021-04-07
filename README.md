@@ -69,12 +69,19 @@
 - [ ] _(Volitelné)_ Přidat `.well-known/security.txt`
 - [ ] _(Volitelné)_ Registrovat do Server Monitoru
 - [ ] Ověřit Security Headers (https://securityheaders.com)
-- [ ] Otestovat výkon v Google PageSpeed Insights (https://developers.google.com/speed/pagespeed/insights/)
-- [ ] Otestovat Cumulative Layout Shift (https://defaced.dev/tools/layout-shift-gif-generator/)
 - [ ] Otestovat výkon v WebPagetest (http://www.webpagetest.org)
 	- _Speed Index nejlépe okolo 1000 pts. (na LTE), průměr 5000–10000, na "3G Slow" je ok okolo 4 sek._
-- [ ] Otestovat výkon v Lighthouse (https://web.dev/measure)
-	- _First Meaningful Paint nejlépe do 3 sek._
-	- _First Interactive nejlépe nízké jednotky sek._
-	- _Perceptual Speed Index nejlépe do 2000, max. do 5 000_
-	- _Time To First Byte nejlépe do 500 ms_
+- [ ] Otestovat výkon v Google PageSpeed Insights (https://developers.google.com/speed/pagespeed/insights/)
+	- Syntetická měření
+		- _LPS_ – Lighthouse Performance Score
+		- _FCP_ - First Contentful Paint (ideálně do 2,36 s)
+		- _LCP_ – Largest Contentful Paint (ideálně do 2,5 s)
+		- _SI_ – Speed Index (ideálně do 3,37 s)
+		- _TTI_ – Time to Interactive (ideálně do 3,785 s)
+		- _TBT_ – Total Blocking Time (ideálně do 0,287 s)
+		- _CLS_ – Cumulative Layout Shift (ideálně do 0,1)
+	- Core Web Vitals (uživatelská měření)
+		- _LCP_ – Largest Contentful Paint (ideálně do 2,5 s)
+		- _FID_ – First Input Delay (ideálně do 100 ms)
+		- _CLS_ – Cumulative Layout Shifr (ideálně do 0,1)
+- [ ] Otestovat Cumulative Layout Shift (https://defaced.dev/tools/layout-shift-gif-generator/)
