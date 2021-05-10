@@ -25,6 +25,7 @@
 
 ### WordPress
 - [ ] Změnit heslo administrátora
+- [ ] Nastavit Akismet pokud je použit Contact Form 7
 - [ ] Znemožnit přístup k readme.html a licence.txt
 - [ ] _(Volitelné)_ Znemožnit přístup k archívu autorů
 - [ ] Ověřit rozměry obrázků, které jsou zobrazovány
@@ -45,7 +46,6 @@
 - [ ] Nastavit FTP přístupy ve wp-config.php
 - [ ] Nastavit správná CHMOD práva pro adresáře (např. uploads)
 - [ ] Aktivovat a nastavit WP Super Cache
-- [ ] Nastavit Akismet pokud je použit Contact Form 7
 - [ ] Otestovat formuláře
 - [ ] _(Volitelné)_ Přidat web do ManageWP
 
