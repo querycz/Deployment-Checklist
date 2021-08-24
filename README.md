@@ -26,6 +26,7 @@
 ### WordPress
 - [ ] Změnit heslo administrátora
 - [ ] Nastavit Contact Form 7
+- [ ] Aktivovat Contact Form Submissions
 - [ ] Nastavit Akismet pokud je použit Contact Form 7
 - [ ] Znemožnit přístup k readme.html a licence.txt
 - [ ] _(Volitelné)_ Znemožnit přístup k archívu autorů
