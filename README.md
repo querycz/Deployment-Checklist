@@ -1,7 +1,5 @@
 # Deployment Checklist ☑️
 
-> Základní checklist používaný nejen při WordPress deploymentu
-
 ## Před deployem
 
 ### .htaccess
@@ -39,7 +37,7 @@
 	- [ ] _(Volitelné)_ Nastavit setSiteSpeedSampleRate for increase of speed sample rate (https://goo.gl/FRHiAp) 
 	- [ ] _(Volitelné)_ Nastavit event tracking (https://goo.gl/1xAgzO) 
 	- [ ] _(Volitelné)_ Nastavit konverzní cíle
-	- [ ] _(Volitelné)_ Aktivovat vyhledávání na stránce (přidání „s“)
+	- [ ] _(Volitelné)_ Aktivovat vyhledávání na stránce (přidat parametr "s")
 
 ## Po deployi
 
@@ -49,7 +47,7 @@
 - [ ] Nastavit správná CHMOD práva pro adresáře (např. uploads)
 - [ ] Aktivovat a nastavit WP Super Cache
 - [ ] Otestovat formuláře
-- [ ] _(Volitelné)_ Přidat web do ManageWP
+- [ ] _(Volitelné)_ Přidat web do správy ManageWP
 
 ### Analytika, bezpečnost a SEO
 - [ ] Ověřit, že .env není přístupný z prohlížeče
