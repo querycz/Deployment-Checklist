@@ -47,7 +47,7 @@
 - [ ] Nastavit správná CHMOD práva pro adresáře (např. uploads)
 - [ ] Aktivovat a nastavit WP Super Cache
 - [ ] Otestovat formuláře
-- [ ] _(Volitelné)_ Přidat web do správy ManageWP
+- [ ] _(Volitelné)_ Přidat web/aplikaci do správy ManageWP
 
 ### Analytika, bezpečnost a SEO
 - [ ] Ověřit, že .env není přístupný z prohlížeče
@@ -60,14 +60,14 @@
 	- [ ] Propojit Google Analytics a Search Console profily (v Google Analytics)
 
 ### Vyhledáváče
-- [ ] Podstrčit web Seznam.cz (http://search.seznam.cz/pridej-stranku)
+- [ ] Podstrčit web/aplikaci Seznam.cz (http://search.seznam.cz/pridej-stranku)
 
 ### Ostatní
 - [ ] Přidat stránky Zpracování osobních údajů a Zpracování cookies
+- [ ] Přidat soubor `.well-known/security.txt`
 - [ ] _(Volitelné)_ Přidat stránku Veřejných obchodních podmínek
 - [ ] _(Volitelné)_ Přesměrovat stará URL na nová přes 301
-- [ ] _(Volitelné)_ Přidat `.well-known/security.txt`
-- [ ] _(Volitelné)_ Registrovat do Server Monitoru
+- [ ] _(Volitelné)_ Přidat web/aplikaci do UptimeRobot
 - [ ] Ověřit Security Headers (https://securityheaders.com)
 - [ ] Otestovat výkon v WebPagetest (http://www.webpagetest.org)
 	- _Speed Index nejlépe okolo 1000 pts. (na LTE), průměr 5000–10000, na "3G Slow" je ok okolo 4 sek._
