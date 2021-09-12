@@ -47,7 +47,7 @@
 - [ ] Nastavit správná CHMOD práva pro adresáře (např. uploads)
 - [ ] Aktivovat a nastavit WP Super Cache
 - [ ] Otestovat formuláře
-- [ ] _(Volitelné)_ Přidat web/aplikaci do správy ManageWP
+- [ ] _(Volitelné)_ Přidat web/aplikaci do správy ManageWP a nastavit automatické aktualizace
 
 ### Analytika, bezpečnost a SEO
 - [ ] Ověřit, že .env není přístupný z prohlížeče
