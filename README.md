@@ -64,6 +64,12 @@
 
 ### Ostatní
 - [ ] Přidat stránky Zpracování osobních údajů a Zpracování cookies
+- [ ] Přidat Cookie Script
+	- [ ] Zapnout "Record User Consent"
+	- [ ] Nastavit "Cookie Policy URL"
+	- [ ] Nastavit více jazyků
+	- [ ] Upravit design banneru
+	- [ ] Implementovat do webu/aplikace lokálně
 - [ ] Přidat soubor `.well-known/security.txt`
 - [ ] _(Volitelné)_ Přidat stránku Veřejných obchodních podmínek
 - [ ] _(Volitelné)_ Přesměrovat stará URL na nová přes 301
