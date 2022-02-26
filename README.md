@@ -72,7 +72,7 @@
 	- [ ] Nastavit více jazyků
 	- [ ] Upravit design banneru
 	- [ ] Implementovat do webu/aplikace lokálně
-- [ ] Otestovat cookies (https://www.cookiemetrix.com)
+- [ ] Otestovat cookies (https://2gdpr.com, https://www.cookiemetrix.com)
 - [ ] Přidat soubor `.well-known/security.txt`
 - [ ] _(Volitelné)_ Přidat stránku Veřejných obchodních podmínek
 - [ ] _(Volitelné)_ Přesměrovat stará URL na nová přes 301
