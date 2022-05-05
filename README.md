@@ -13,13 +13,12 @@
 	- [ ] Nastavit Open Graph meta tagy
 - [ ] Označit klíčové elementy dle WAI ARIA
 - [ ] Ověřit 404 chybovou stránku
-- [ ] Ověřit, že zkompilované CSS neobsahuje nechtěné `@import`
 - [ ] Aktivovat HTML minifikaci
 - [ ] Přidat lazy loading obrázků a/nebo iframů
 - [ ] Ověřit, že obrázky mají definované rozměry kvůli Cumulative Layout Shift
 - [ ] Nastavit `dependOn` ve webpacku u sdílených komponent pro zamezení duplikace
 - [ ] Načítat Google fonty lokálně
-- [ ] Konvertovat JPG/PNG obrázky do WebP
+- [ ] _(Volitelné)_ Konvertovat JPG/PNG obrázky do WebP
 - [ ] Optimalizovat obrázky v TinyPNG a SVGOMG (eventuálně Optimage, ImageOptim, ImageAlpha, Squoosh)
 - [ ] Zkontrolovat web/aplikaci v alternativných prohlížečích
 
@@ -30,7 +29,7 @@
 - [ ] Nastavit Akismet pokud je použit Contact Form 7
 - [ ] Znemožnit přístup k readme.html a licence.txt
 - [ ] _(Volitelné)_ Znemožnit přístup k archívu autorů
-- [ ] Ověřit rozměry obrázků, které jsou zobrazovány
+- [ ] Ověřit rozměry obrázků, které jsou zobrazovány WordPressem
 
 ### Analytika a SEO
 - [ ] Přidat Google Analytics skript
@@ -55,7 +54,6 @@
 - [ ] Ověřit, že .env není přístupný z prohlížeče
 - [ ] Aktivovat Security Headers
 - [ ] Ověřit validitu HTML přes W3C validátor
-- [ ] Ověřit, že meta robots není nastaven na produkci nastaven na noindex,nofollow
 - [ ] Ověřit Open Graph meta tagy Facebook debuggerem (https://developers.facebook.com/tools/debug/)
 - [ ] Přidat web/aplikaci do Google Search Console
 	- [ ] Přidat sitemap.xml
