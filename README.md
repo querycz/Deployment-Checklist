@@ -24,7 +24,7 @@
 
 ### WordPress
 - [ ] Změnit heslo administrátora
-- [ ] Nastavit Contact Form 7
+- [ ] Nastavit Contact Form 7 a otestovat formuláře
 - [ ] Aktivovat Contact Form Submissions
 - [ ] Nastavit Akismet pokud je použit Contact Form 7
 - [ ] Znemožnit přístup k readme.html a licence.txt
@@ -47,7 +47,6 @@
 - [ ] Nastavit FTP přístupy ve wp-config.php
 - [ ] Nastavit správná CHMOD práva pro adresáře (např. uploads)
 - [ ] Aktivovat a nastavit WP Super Cache
-- [ ] Otestovat formuláře
 - [ ] _(Volitelné)_ Přidat web/aplikaci do správy ManageWP a nastavit automatické aktualizace
 
 ### Analytika, bezpečnost a SEO
