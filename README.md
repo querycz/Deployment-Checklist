@@ -6,17 +6,15 @@
 - [ ] Vynutit přesměrování webu/aplikace na "www"
 - [ ] Aktivovat GZip kompresi a Cache-Control
 - [ ] Aktivovat SSL certifikát a vynutit přesměrování na HTTPS
-	- [ ] Ověřit, že každý asset a URL používá HTTPS
 
 ### Kód a assety
 - [ ] Nastavit meta tagy (meta description, atd.)
-	- [ ] Nastavit Open Graph meta tagy
+- [ ] Nastavit Open Graph meta tagy
 - [ ] Označit klíčové elementy dle WAI ARIA
 - [ ] Ověřit 404 chybovou stránku
 - [ ] Aktivovat HTML minifikaci
 - [ ] Přidat lazy loading obrázků a/nebo iframů
 - [ ] Ověřit, že obrázky mají definované rozměry kvůli Cumulative Layout Shift
-- [ ] Nastavit `dependOn` ve webpacku u sdílených komponent pro zamezení duplikace
 - [ ] Načítat Google fonty lokálně
 - [ ] _(Volitelné)_ Konvertovat JPG/PNG obrázky do WebP
 - [ ] Optimalizovat obrázky v TinyPNG a SVGOMG (eventuálně Optimage, ImageOptim, ImageAlpha, Squoosh)
@@ -28,16 +26,13 @@
 - [ ] Aktivovat Contact Form Submissions
 - [ ] Nastavit Akismet pokud je použit Contact Form 7
 - [ ] Znemožnit přístup k readme.html a licence.txt
-- [ ] _(Volitelné)_ Znemožnit přístup k archívu autorů
+- [ ] _(Volitelné)_ Znemožnit přístup k archívu autorů přes Yoast SEO
 - [ ] Ověřit rozměry obrázků, které jsou zobrazovány WordPressem
 
 ### Analytika a SEO
 - [ ] Přidat Google Analytics skript
-	- [ ] Aktivovat report Demografie
-	- [ ] Změnit délku uchovávání dat (Služba –> Údaje o měření –> Uchovávání dat)
-	- [ ] _(Volitelné)_ Nastavit setSiteSpeedSampleRate for increase of speed sample rate (https://goo.gl/FRHiAp) 
-	- [ ] _(Volitelné)_ Nastavit event tracking (https://goo.gl/1xAgzO) 
-	- [ ] _(Volitelné)_ Nastavit konverzní cíle
+	- [ ] Změnit délku uchovávání dat (Služba –> Nastavení dat –> Uchovávání dat)
+	- [ ] _(Volitelné)_ Nastavit event tracking (https://goo.gl/1xAgzO)
 	- [ ] _(Volitelné)_ Aktivovat vyhledávání na stránce (přidat parametr "s")
 
 ## Po deployi
