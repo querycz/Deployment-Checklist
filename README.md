@@ -57,12 +57,8 @@
 
 ### Ostatní
 - [ ] Přidat stránky Zpracování osobních údajů a Zpracování cookies
-- [ ] Přidat Cookie Script
-	- [ ] Zapnout "Record User Consent"
-	- [ ] Nastavit "Cookie Policy URL"
-	- [ ] Nastavit více jazyků
-	- [ ] Upravit design banneru
-	- [ ] Implementovat do webu/aplikace lokálně
+- [ ] Přidat Cookie Consent
+	- [ ] Povolit CORS pro zapisování logů do databáze
 - [ ] Otestovat cookies (https://2gdpr.com, https://www.cookiemetrix.com)
 - [ ] Přidat soubor `.well-known/security.txt`
 - [ ] _(Volitelné)_ Přidat stránku Veřejných obchodních podmínek
