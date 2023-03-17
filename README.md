@@ -8,12 +8,13 @@
 - [ ] Aktivovat SSL certifikát a vynutit přesměrování na HTTPS
 
 ### Kód a assety
+- [ ] Odstranit nepoužité funkce a balíčky
 - [ ] Nastavit meta tagy (meta description, atd.)
 - [ ] Nastavit Open Graph meta tagy
 - [ ] Označit klíčové elementy dle WAI ARIA
 - [ ] Ověřit 404 chybovou stránku
-- [ ] Aktivovat HTML minifikaci
-- [ ] Přidat lazy loading obrázků a/nebo iframů
+- [ ] Ověřit HTML minifikaci
+- [ ] Ověřit lazy loading obrázků a/nebo iframů
 - [ ] Ověřit, že obrázky mají definované rozměry kvůli Cumulative Layout Shift
 - [ ] Načítat Google fonty lokálně
 - [ ] _(Volitelné)_ Konvertovat JPG/PNG obrázky do WebP
@@ -60,11 +61,11 @@
 - [ ] Přidat Cookie Consent
 	- [ ] Povolit CORS pro zapisování logů do databáze
 - [ ] Otestovat cookies (https://2gdpr.com, https://www.cookiemetrix.com)
-- [ ] Přidat soubor `.well-known/security.txt`
+- [ ] Přidat soubor `./security.txt`
+- [ ] Ověřit Security Headers (https://securityheaders.com)
 - [ ] _(Volitelné)_ Přidat stránku Veřejných obchodních podmínek
 - [ ] _(Volitelné)_ Přesměrovat stará URL na nová přes 301
-- [ ] _(Volitelné)_ Přidat web/aplikaci do UptimeRobot
-- [ ] Ověřit Security Headers (https://securityheaders.com)
+- [ ] _(Volitelné)_ Přidat web/aplikaci do Uptime Kuma
 - [ ] Otestovat výkon v WebPagetest (http://www.webpagetest.org)
 	- _Speed Index nejlépe okolo 1000 pts. (na LTE), průměr 5000–10000, na "3G Slow" je ok okolo 4 sek._
 - [ ] Otestovat výkon v Google PageSpeed Insights (https://developers.google.com/speed/pagespeed/insights/)
