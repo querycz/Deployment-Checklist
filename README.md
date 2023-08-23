@@ -29,6 +29,7 @@
 - [ ] Znemožnit přístup k readme.html a licence.txt
 - [ ] _(Volitelné)_ Znemožnit přístup k archívu autorů přes Yoast SEO
 - [ ] Ověřit rozměry obrázků, které jsou zobrazovány WordPressem
+- [ ] Zkontrolovat, jestli nejsou publikované indexovatelné vzorové posty
 
 ### Analytika a SEO
 - [ ] Přidat Google Analytics skript
