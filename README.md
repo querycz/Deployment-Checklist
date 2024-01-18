@@ -3,9 +3,9 @@
 ## Před deployem
 
 ### .htaccess
+- [ ] Aktivovat SSL certifikát a ověřit vynucení přesměrování na HTTPS
 - [ ] Vynutit přesměrování webu/aplikace na "www"
-- [ ] Aktivovat GZip kompresi a Cache-Control
-- [ ] Aktivovat SSL certifikát a vynutit přesměrování na HTTPS
+- [ ] Ověřit GZip kompresi a Cache-Control
 
 ### Kód a assety
 - [ ] Odstranit nepoužité funkce a balíčky
