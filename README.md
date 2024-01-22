@@ -23,7 +23,7 @@
 
 ### WordPress
 - [ ] Změnit heslo administrátora
-- [ ] Nastavit Contact Form 7 a otestovat formuláře
+- [ ] Nastavit SMTP, Contact Form 7 a otestovat formuláře
 - [ ] Aktivovat Contact Form Submissions
 - [ ] Nastavit Akismet pokud je použit Contact Form 7
 - [ ] Znemožnit přístup k readme.html a licence.txt
