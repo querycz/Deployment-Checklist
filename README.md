@@ -62,7 +62,7 @@
 - [ ] Přidat Cookie Consent
 	- [ ] Povolit CORS pro zapisování logů do databáze
 - [ ] Otestovat cookies (https://2gdpr.com, https://www.cookiemetrix.com)
-- [ ] Přidat soubor `./security.txt`
+- [ ] Přidat soubor `.well-known/security.txt`
 - [ ] Ověřit Security Headers (https://securityheaders.com)
 - [ ] _(Volitelné)_ Přidat stránku Veřejných obchodních podmínek
 - [ ] _(Volitelné)_ Přesměrovat stará URL na nová přes 301
