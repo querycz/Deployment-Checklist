@@ -18,7 +18,7 @@
 - [ ] Ověřit, že obrázky mají definované rozměry kvůli Cumulative Layout Shift
 - [ ] Načítat Google fonty lokálně
 - [ ] _(Volitelné)_ Konvertovat JPG/PNG obrázky do WebP
-- [ ] Optimalizovat obrázky v TinyPNG a SVGOMG (eventuálně Optimage, ImageOptim, ImageAlpha, Squoosh)
+- [ ] Optimalizovat jednotlivé obrázky v Squoosh a SVGOMG (dávkové v TinyPNG)
 - [ ] Zkontrolovat web/aplikaci v alternativných prohlížečích
 
 ### WordPress
