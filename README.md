@@ -3,23 +3,23 @@
 ## Před deployem
 
 ### .htaccess
-- [ ] Aktivovat SSL certifikát a ověřit vynucení přesměrování na HTTPS
-- [ ] Vynutit přesměrování webu/aplikace na "www"
+- [ ] Aktivovat SSL certifikát a vynutit přesměrování na HTTPS
+- [ ] Vynutit přesměrování na "www"
 - [ ] Ověřit GZip kompresi a Cache-Control
 
 ### Kód a assety
 - [ ] Odstranit nepoužité funkce a balíčky
 - [ ] Nastavit meta tagy (meta description, atd.)
-- [ ] Nastavit Open Graph meta tagy
+- [ ] Nastavit Open Graph obrázek
 - [ ] Označit klíčové elementy dle WAI ARIA
 - [ ] Ověřit 404 chybovou stránku
 - [ ] Ověřit HTML minifikaci
-- [ ] Ověřit lazy loading obrázků a/nebo iframů
-- [ ] Ověřit, že obrázky mají definované rozměry kvůli Cumulative Layout Shift
-- [ ] Načítat Google fonty lokálně
-- [ ] _(Volitelné)_ Konvertovat JPG/PNG obrázky do WebP
+- [ ] Ověřit lazy loading obrázků a iframů
+- [ ] Ověřit, že mají obrázky definované rozměry (kvůli Cumulative Layout Shift)
+- [ ] Ověřit lokální načítání Google fontů
+- [ ] Konvertovat JPG/PNG obrázky do WebP
 - [ ] Optimalizovat jednotlivé obrázky v Squoosh a SVGOMG (dávkové v TinyPNG)
-- [ ] Zkontrolovat web/aplikaci v alternativných prohlížečích
+- [ ] Zkontrolovat zobrazení v alternativných prohlížečích
 
 ### WordPress
 - [ ] Změnit heslo administrátora
@@ -27,14 +27,13 @@
 - [ ] Aktivovat Contact Form Submissions
 - [ ] Nastavit Akismet pokud je použit Contact Form 7
 - [ ] Znemožnit přístup k readme.html a licence.txt
-- [ ] _(Volitelné)_ Znemožnit přístup k archívu autorů přes Yoast SEO
+- [ ] Znemožnit přístup k archívu autorů přes Yoast SEO
 - [ ] Ověřit rozměry obrázků, které jsou zobrazovány WordPressem
-- [ ] Zkontrolovat, jestli nejsou publikované indexovatelné vzorové posty
+- [ ] Zkontrolovat, jestli nejsou publikované vzorové příspěvky
 
 ### Analytika a SEO
 - [ ] Přidat Google Analytics skript
 	- [ ] Změnit délku uchovávání dat (Služba –> Nastavení dat –> Uchovávání dat)
-	- [ ] _(Volitelné)_ Nastavit event tracking (https://goo.gl/1xAgzO)
 	- [ ] _(Volitelné)_ Aktivovat vyhledávání na stránce (přidat parametr "s")
 
 ## Po deployi
@@ -47,7 +46,7 @@
 
 ### Analytika, bezpečnost a SEO
 - [ ] Ověřit, že .env není přístupný z prohlížeče
-- [ ] Aktivovat Security Headers
+- [ ] Aktivovat Security Headers a ověřit je (https://securityheaders.com)
 - [ ] Ověřit validitu HTML přes W3C validátor
 - [ ] Ověřit Open Graph meta tagy Facebook debuggerem (https://developers.facebook.com/tools/debug/)
 - [ ] Přidat web/aplikaci do Google Search Console
@@ -63,7 +62,6 @@
 	- [ ] Povolit CORS pro zapisování logů do databáze
 - [ ] Otestovat cookies (https://2gdpr.com, https://www.cookiemetrix.com)
 - [ ] Přidat soubor `.well-known/security.txt`
-- [ ] Ověřit Security Headers (https://securityheaders.com)
 - [ ] _(Volitelné)_ Přidat stránku Veřejných obchodních podmínek
 - [ ] _(Volitelné)_ Přesměrovat stará URL na nová přes 301
 - [ ] _(Volitelné)_ Přidat web/aplikaci do Uptime Kuma
