@@ -33,7 +33,8 @@
 
 ### Analytika a SEO
 - [ ] Přidat Google Analytics skript
-	- [ ] Změnit délku uchovávání dat (Služba –> Nastavení dat –> Uchovávání dat)
+	- [ ] Nastavit shromažďování dat (Služba –> Shromažďování dat)
+ 	- [ ] Změnit délku uchovávání dat (Služba –> Uchovávání dat)
 	- [ ] _(Volitelné)_ Aktivovat vyhledávání na stránce (přidat parametr "s")
 
 ## Po deployi
