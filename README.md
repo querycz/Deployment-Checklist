@@ -30,6 +30,7 @@
 - [ ] Znemožnit přístup k archívu autorů přes Yoast SEO
 - [ ] Ověřit rozměry obrázků, které jsou zobrazovány WordPressem
 - [ ] Zkontrolovat, jestli nejsou publikované vzorové příspěvky
+- [ ] Zkontrolovat redirecty CPT archivů
 
 ### Analytika a SEO
 - [ ] Přidat Google Analytics skript
