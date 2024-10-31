@@ -28,6 +28,7 @@
 - [ ] Nastavit Akismet pokud je použit Contact Form 7
 - [ ] Znemožnit přístup k readme.html a licence.txt
 - [ ] Znemožnit přístup k archívu autorů přes Yoast SEO
+- [ ] Odstranit archívy ze sitemap.xml přes Yoast SEO, pokud nemají být dostupné
 - [ ] Ověřit rozměry obrázků, které jsou zobrazovány WordPressem
 - [ ] Zkontrolovat, jestli nejsou publikované vzorové příspěvky
 - [ ] Zkontrolovat redirecty CPT archivů
