@@ -38,6 +38,7 @@
 	- [ ] Nastavit shromažďování dat (Služba –> Shromažďování dat)
  	- [ ] Změnit délku uchovávání dat (Služba –> Uchovávání dat)
 	- [ ] _(Volitelné)_ Aktivovat vyhledávání na stránce (přidat parametr "s")
+- [ ] V sitemap.xml ověřit, že neobsahuje nechtěné URL 
 
 ## Po deployi
 
