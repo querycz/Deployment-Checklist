@@ -44,6 +44,7 @@
 ### WordPress
 - [ ] Nastavit unikátní keys a salts ve wp-config.php
 - [ ] Nastavit správná CHMOD práva pro adresáře (např. uploads)
+- [ ] Odstranit neaktivní pluginy
 - [ ] Aktivovat a nastavit WP Super Cache
 - [ ] _(Volitelné)_ Přidat web/aplikaci do správy ManageWP a nastavit automatické aktualizace
 
