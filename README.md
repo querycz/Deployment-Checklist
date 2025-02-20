@@ -16,6 +16,7 @@
 - [ ] Ověřit HTML minifikaci
 - [ ] Ověřit lazy loading obrázků a iframů
 - [ ] Ověřit, že mají obrázky definované rozměry (kvůli Cumulative Layout Shift)
+- [ ] Ověřit, že se nepoužívají animace delší než 500 ms
 - [ ] Ověřit lokální načítání Google fontů
 - [ ] Konvertovat JPG/PNG obrázky do WebP
 - [ ] Optimalizovat jednotlivé obrázky v Squoosh a SVGOMG (dávkové v TinyPNG)
