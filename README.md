@@ -25,7 +25,7 @@
 ### WordPress
 - [ ] Změnit heslo administrátora
 - [ ] Nastavit SMTP, Contact Form 7 a otestovat formuláře
-- [ ] Aktivovat Contact Form Submissions
+- [ ] Zkontrolovat aktivní WP Mail Logging
 - [ ] Nastavit Akismet pokud je použit Contact Form 7
 - [ ] Znemožnit přístup k readme.html a licence.txt
 - [ ] Znemožnit přístup k archívu autorů přes Yoast SEO
