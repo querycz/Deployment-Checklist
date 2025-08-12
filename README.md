@@ -1,4 +1,4 @@
-# Deployment Checklist ☑️
+# ☑️ Deployment Checklist
 
 ## Před deployem
 
