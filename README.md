@@ -51,6 +51,7 @@
 - [ ] _(Volitelné)_ Přidat web/aplikaci do správy WP Umbrella, nastavit automatické aktualizace a report
 
 ### Analytika, bezpečnost a SEO
+- [ ] Aktivovat llms.txt
 - [ ] Ověřit, že .env není přístupný z prohlížeče
 - [ ] Aktivovat Security Headers a ověřit je (https://securityheaders.com)
 - [ ] Ověřit validitu HTML přes W3C validátor
