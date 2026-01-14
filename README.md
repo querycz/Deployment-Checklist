@@ -9,7 +9,7 @@
 
 ### Kód a assety
 - [ ] Odstranit nepoužité funkce a balíčky
-- [ ] Nastavit meta tagy (meta description, atd.)
+- [ ] Nastavit meta description v SEO Yoast i v administraci (Popis webu)
 - [ ] Nastavit Open Graph obrázek
 - [ ] Označit klíčové elementy dle WAI ARIA
 - [ ] Ověřit 404 chybovou stránku
