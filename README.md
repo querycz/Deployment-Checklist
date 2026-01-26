@@ -55,6 +55,7 @@
 - [ ] Aktivovat llms.txt
 - [ ] Ověřit, že .env není přístupný z prohlížeče
 - [ ] Aktivovat Security Headers a ověřit je (https://securityheaders.com)
+- [ ] Nastavit striktní CSP
 - [ ] Ověřit validitu HTML přes W3C validátor
 - [ ] Ověřit Open Graph meta tagy Facebook debuggerem (https://developers.facebook.com/tools/debug/)
 - [ ] Přidat web/aplikaci do Google Search Console
