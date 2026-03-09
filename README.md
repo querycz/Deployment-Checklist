@@ -40,6 +40,7 @@
 	- [ ] Nastavit shromažďování dat (Služba –> Shromažďování dat)
  	- [ ] Změnit délku uchovávání dat (Služba –> Uchovávání dat)
 	- [ ] _(Volitelné)_ Aktivovat vyhledávání na stránce (přidat parametr "s")
+ - [ ] _(Volitelné)_ Přidat Plausible skript
 
 ## Po deployi
 
