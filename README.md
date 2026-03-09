@@ -12,6 +12,7 @@
 - [ ] Nastavit meta description v SEO Yoast i v administraci (Popis webu)
 - [ ] Nastavit Open Graph obrázek
 - [ ] Označit klíčové elementy dle WAI ARIA
+- [ ] Ošetřit target="_blank" odkazy pomocí noopener a/nebo noreferrer
 - [ ] Ověřit 404 chybovou stránku
 - [ ] Ověřit HTML minifikaci
 - [ ] Ověřit lazy loading obrázků a iframů
