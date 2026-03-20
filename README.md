@@ -37,11 +37,11 @@
 - [ ] Zkontrolovat redirecty CPT archivů
 
 ### Analytika a SEO
-- [ ] Přidat Google Analytics skript
+- [ ] Přidat Umami skript
+- [ ] _(Volitelné)_ Přidat Google Analytics skript
 	- [ ] Nastavit shromažďování dat (Služba –> Shromažďování dat)
  	- [ ] Změnit délku uchovávání dat (Služba –> Uchovávání dat)
 	- [ ] _(Volitelné)_ Aktivovat vyhledávání na stránce (přidat parametr "s")
- - [ ] _(Volitelné)_ Přidat Plausible skript
 
 ## Po deployi
 
@@ -57,12 +57,12 @@
 - [ ] Aktivovat llms.txt
 - [ ] Ověřit, že .env není přístupný z prohlížeče
 - [ ] Aktivovat Security Headers a ověřit je (https://securityheaders.com)
-- [ ] Nastavit striktní CSP
+- [ ] _(Volitelné)_ Nastavit striktní CSP
 - [ ] Ověřit validitu HTML přes W3C validátor
 - [ ] Ověřit Open Graph meta tagy Facebook debuggerem (https://developers.facebook.com/tools/debug/)
 - [ ] Přidat web/aplikaci do Google Search Console
 	- [ ] Přidat sitemap.xml
-	- [ ] Propojit Google Analytics a Search Console profily (v Google Analytics)
+	- [ ] _(Volitelné)_ Propojit Google Analytics a Search Console profily (v Google Analytics)
 
 ### Vyhledáváče
 - [ ] Podstrčit web/aplikaci Seznam.cz (http://search.seznam.cz/pridej-stranku)
