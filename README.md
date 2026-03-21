@@ -50,7 +50,7 @@
 - [ ] Nastavit správná CHMOD práva pro adresáře (např. uploads)
 - [ ] Odstranit neaktivní pluginy
 - [ ] Aktivovat a nastavit WP Super Cache
-- [ ] _(Volitelné)_ Zvážit nastavení objektové cache (Redis nebo SQLite)
+- [ ] _(Volitelné)_ Nastavit objektovou cache (Redis nebo SQLite)
 - [ ] _(Volitelné)_ Přidat web/aplikaci do správy WP Umbrella, nastavit automatické aktualizace a report
 
 ### Analytika, bezpečnost a SEO
