@@ -30,7 +30,7 @@
 - [ ] Nastavit Akismet pokud je použit Contact Form 7
 - [ ] Znemožnit přístup k readme.html a licence.txt
 - [ ] Znemožnit přístup k archívu autorů přes Yoast SEO
-- [ ] Ověřit, že není přístupný Users REST API endpoint `/wp-json/wp/v2/users` pro nepřihlášené uživatele
+- [ ] Ověřit, že nejsou přístupné REST API endpointy mimo administraci
 - [ ] Zkontrolovat sitemap.xml a odstranit položky přes Yoast SEO, pokud nemají být dostupné
 - [ ] Ověřit rozměry obrázků, které jsou zobrazovány WordPressem
 - [ ] Zkontrolovat, jestli nejsou publikované vzorové příspěvky
