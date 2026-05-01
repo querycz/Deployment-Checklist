@@ -20,7 +20,7 @@
 - [ ] Ověřit, že se nepoužívají animace delší než 500 ms
 - [ ] Ověřit lokální načítání Google fontů
 - [ ] Konvertovat JPG/PNG obrázky do WebP
-- [ ] Optimalizovat jednotlivé obrázky v Squoosh a SVGOMG (dávkové v TinyPNG)
+- [ ] Optimalizovat jednotlivé obrázky v Squoosh a SVGOMG, dávkové v TinyPNG (automatizováno)
 - [ ] Zkontrolovat zobrazení v alternativných prohlížečích
 
 ### WordPress
